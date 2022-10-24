@@ -1,10 +1,9 @@
-![Mux iOS Demo Banner](screenshots/banner.png)
+# BuffsStream
 
-# Mux iOS Broadcast Demo
+This application is a fork of Mux's example iOS app. This application is an example of using the free and open source [HaishinKit RTMP 
+library](https://github.com/shogo4405/HaishinKit.swift) to create an iOS app which can broadcast reliably to [Mux](https://mux.com/).
 
-This application is an example of using the free and open source [HaishinKit RTMP library](https://github.com/shogo4405/HaishinKit.swift) to create an iOS app which can broadcast reliably to [Mux](https://mux.com/).
-
-This app replaced the previous iOS example which uses LFLiveKit, but lives in the same repository.
+Our changes revolve around disintegrating Mux and making it useable for any RTMP stream
 
 ## Functionality
 
@@ -16,10 +15,6 @@ This app replaced the previous iOS example which uses LFLiveKit, but lives in th
 * 4 basic profiles broadcasting profiles from 360p @ 1mbps to 1080p @ 5mbps
 * Rotation prior to broadcast start
 
-## Demo
-
-![Screen Recording](screenshots/animated.gif)
-
 ## Limitations
 
 * Video rotation cannot be changed once broadcasting has started
@@ -30,9 +25,7 @@ This app replaced the previous iOS example which uses LFLiveKit, but lives in th
 
 ## Prerequisites
 
-To use this application, you'll need a [Mux account](https://dashboard.mux.com/signup?type=video) and an [RTMP stream key](https://docs.mux.com/guides/video/start-live-streaming#2-create-a-unique-live-stream).
-
-If you're new to Mux or live streaming in general, you can follow our [Start Live Streaming guide](https://docs.mux.com/guides/video/start-live-streaming) for a tutorial on getting your first live stream created, and obtaining an RTMP stream key.
+To use this application, you will need a RTMP URL, some provider's are Mux, Twitch, and YouTube.
 
 ## Installing and running the project
 
@@ -53,10 +46,6 @@ Please note that broadcasting from an iOS simulator is not possible - you'll nee
 ## Dependencies
 
 The project requires iOS 13 or higher, and should work on most iPhone and iPad devices. Dependencies are deliberately minimal, and are managed using Cocoapods.
-
-# Support
-
-Mux will provides basic support for the features shown in this example. Please raise a GitHub issue if you run into problems, but remember that we are limited to functionality that Haishinkit provides.
 
 # Documentation
 
