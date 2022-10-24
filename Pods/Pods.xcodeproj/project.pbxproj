@@ -12,7 +12,6 @@
 		0912CF86E87F9055EFD21F10E9EE0363 /* NALUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E4955A38DDF74BD404E2933CA4CBEA /* NALUnit.swift */; };
 		0E33A56AD4094E3DFB668CB8C888B34F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
 		0EA79EA321428D69B2AB79A9A8D4D8AC /* TSWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA5574C839B3BF8CE7E35C86710139 /* TSWriter.swift */; };
-		0EC221732D44C7F2E75AE47EBCB986C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		0FBF7F30A3C7B1E6B372A6EECC7C1C90 /* CRC32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B1372F9D95133B08695344A28217F /* CRC32.swift */; };
 		16E0106429B8B5D4A0528387205C33D0 /* FLVSoundSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F88AF529DB59A749B7F443022C7B302 /* FLVSoundSize.swift */; };
 		17F517EA8AF3C8D56F1DC9F0AEFE2027 /* ConsoleAppender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADFF8B39C099FDF978E8E2E4A80286B /* ConsoleAppender.swift */; };
@@ -21,6 +20,7 @@
 		1BDA650F473E9FBDC3CDC9E84050C45C /* VTSessionPropertyKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5F2CBC8AA8679F658E7A7B6429695F /* VTSessionPropertyKey.swift */; };
 		1C6DC6BC8500063E098D0006872400D7 /* HaishinKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C43D27A6CC73543E8DC76981A83A7636 /* HaishinKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E369605252D2EA2340918205314624E /* AudioEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC0878565FDAFC3418763A424423BB6 /* AudioEffect.swift */; };
+		1E4D0EE1644C35304BB85477F8BE7D6C /* Pods-BuffsStream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30574B2390CF46D772633B52DC3ADF2B /* Pods-BuffsStream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E5F1DD0EF4B22397DFBE5FD6B3CF48A /* SoundTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDD57B82BDD755816E991880E260932 /* SoundTransform.swift */; };
 		1E7B45D2AC217054EE92AEA78E7F465A /* CMBlockBuffer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A907B257B179C8DCBB297B577AAF1AA2 /* CMBlockBuffer+Extension.swift */; };
 		247F1AE74B93355EB45DDEA3793B287B /* MP4Sampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD365F5DA2907EACDE59B3DC1CAAC8FE /* MP4Sampler.swift */; };
@@ -30,7 +30,6 @@
 		2A560BFDF23C8C98FDB81459C301CFC0 /* MIME.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4179F5E4ABCC18D52CE73ADAADA8C2 /* MIME.swift */; };
 		2F645129D78B0C65F883BC5C246A0EDC /* VTCompressionSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B934DCF5CCE1AC41660F50A08141F2 /* VTCompressionSession+Extension.swift */; };
 		307C53463754D644CDD04B66FAE6345F /* AVFoundation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56CD5A2B7F1847E1F49743FD412EF7 /* AVFoundation+Extension.swift */; };
-		3149B1D32943E1A2184DB14307340B6F /* Pods-MuxLive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 150FE544D132834031F689A9778BFD3E /* Pods-MuxLive-dummy.m */; };
 		3201E91A53D41913CE2EFDC6F1A5418F /* VideoEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6890D67F132659CD7A37C64D4EDD22CC /* VideoEffect.swift */; };
 		3372BF399CB0F8C35EE6B31E7A47CD88 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392DE8EB52681B3810FEAFEAE78FD086 /* Controller.swift */; };
 		34418B14E3D1A1F345A8705A9F800D27 /* RTMPStreamInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB97A44172F0CB888879F463698B841 /* RTMPStreamInfo.swift */; };
@@ -99,7 +98,6 @@
 		AA1D818953C7DBE3C938D6E5D150BBAE /* Logboard.Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68483E9565E9D14B82C1B195C7A453FF /* Logboard.Data.swift */; };
 		AA780492BD462204AD78023A79EFA70D /* HaishinKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A7F2D9C235123999B174C260744200 /* HaishinKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB6E560DAECF09CA10631F62BFA9AD68 /* FLVAACPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F93A25C9F2EBA475C214C884DACB524 /* FLVAACPacket.swift */; };
-		ACDB34DB0BAC516DECDA669C98A894DA /* Pods-MuxLive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D11162180EEA7521F747A775B340E96 /* Pods-MuxLive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF2264CFEF19CBB9B0FECC85BC50D129 /* RTMPObjectEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFA9673C749F93FDFC9647E4B4842FE /* RTMPObjectEncoding.swift */; };
 		B1D84B564C7988A125F3DCE9BD372DA7 /* AudioStreamBasicDescription+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E202F00A17C5807AA8777D83D10C5623 /* AudioStreamBasicDescription+Extension.swift */; };
 		B2B62FD9A9A9B94B09F988685188BA63 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00230AB5ABA132B33B5DB4B36E4E4F43 /* Manager.swift */; };
@@ -109,6 +107,7 @@
 		B92937D4AD0CD125C518A3DA3DD55A34 /* Loaf-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF43AE4680BEA44B9B0958C3E6B087A2 /* Loaf-dummy.m */; };
 		B959351B031FA3F8F3B146C7A13C2083 /* AudioIOComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F865D59D8BD7C525876BBEFA3E29959B /* AudioIOComponent.swift */; };
 		BCB1D43E87289C784C9563D390E0C054 /* CMSampleBuffer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CECDF1ADBA8AA0BE7C3C06E8C56B9 /* CMSampleBuffer+Extension.swift */; };
+		BCBE89EF5257EAA66436D3C0660672C4 /* Pods-BuffsStream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0351B5DA0C177C51BD004417DB3801 /* Pods-BuffsStream-dummy.m */; };
 		BEEC0D860AC39BB7C2AEC29C539538B3 /* UIColor+Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E9619C31496508AB5079E4E59AB590 /* UIColor+Hue.swift */; };
 		C108FC3965413A8F80E16C62CE5D9A40 /* H264Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09915FDA9B4987E9946E9B4E836894 /* H264Decoder.swift */; };
 		C18588C1650874C944897F96AF1DDF5E /* SocketAppender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1E2BB407E46D6B958A36AE5F057DCB /* SocketAppender.swift */; };
@@ -137,6 +136,7 @@
 		E46D51140ADCFD4F71CBD66EB285F39C /* TransportStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED66DCB5D0997B78322FBB32EA4D560 /* TransportStream.swift */; };
 		E6CCD492928EC1FF358FB1ED9AD9327B /* DeviceUtil+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA6157DF003DF6EDF49B35CBC68892 /* DeviceUtil+Extenstion.swift */; };
 		E7DBECA0688DD7A47971A094A8242DA2 /* Loaf-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A237C162E69B5CB1C7B74E5681C2509B /* Loaf-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E93F810BE2CEE6FFA858E3B3D9BD753F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		ED22278135F45EA91703E7A8EED94E4D /* DeviceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331591E2E344A56929B6ACB15DE00178 /* DeviceUtil.swift */; };
 		EEC3E2CC964D7376BCE4B495F8CFC7EE /* NetSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75742DBFD365A452BFEACB7C8A078F9 /* NetSocket.swift */; };
 		F21E1D924F7ACA6F15B136EE6893E96D /* IOComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393F10364D6E7C37289F693503051993 /* IOComponent.swift */; };
@@ -147,26 +147,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		03C92BF476538438D434C911F8967E9D /* PBXContainerItemProxy */ = {
+		0885B2440CA94FBCBC6E8AC1DEF3E8DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 00D9B51B84230E50370AC70ADCF7F8AA;
 			remoteInfo = Hue;
 		};
-		2FB305CCEC9C7152EA68333492FE53C8 /* PBXContainerItemProxy */ = {
+		09ECE8E0A719F1296D088C90022B3B64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E12D5ED3565D8FCC3DD9B9DD89246A9;
+			remoteInfo = Loaf;
+		};
+		5B68510FDE711DC72A94283E6F71D4E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3D19B054558188CDA7BA163F3BEBCE91;
 			remoteInfo = HaishinKit;
-		};
-		7E0DEA81AC0A53F0D95413171DE2869E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B741752CADA2D523808EEA4844EE6697;
-			remoteInfo = Logboard;
 		};
 		E5D330FCAEA565FFB90C4186FE53286C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -175,12 +175,12 @@
 			remoteGlobalIDString = B741752CADA2D523808EEA4844EE6697;
 			remoteInfo = Logboard;
 		};
-		F26A43040BA5BA46E688228E2FA565CA /* PBXContainerItemProxy */ = {
+		F52120FD342D6C218F664FFC8241A584 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3E12D5ED3565D8FCC3DD9B9DD89246A9;
-			remoteInfo = Loaf;
+			remoteGlobalIDString = B741752CADA2D523808EEA4844EE6697;
+			remoteInfo = Logboard;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -190,9 +190,7 @@
 		0B6D55F368585F5D27CFE6929A3704E7 /* NetClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetClient.swift; path = Sources/Net/NetClient.swift; sourceTree = "<group>"; };
 		0BEA6157DF003DF6EDF49B35CBC68892 /* DeviceUtil+Extenstion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DeviceUtil+Extenstion.swift"; path = "Platforms/iOS/DeviceUtil+Extenstion.swift"; sourceTree = "<group>"; };
 		0D77D3CCA0B1B13D4B8AE7FEDFB3BDBB /* DataConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataConvertible.swift; path = Sources/Util/DataConvertible.swift; sourceTree = "<group>"; };
-		0EFDBC7D64A0684D766BC7CB58C665CD /* Pods-MuxLive-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MuxLive-frameworks.sh"; sourceTree = "<group>"; };
 		10E4955A38DDF74BD404E2933CA4CBEA /* NALUnit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NALUnit.swift; path = Sources/ISO/NALUnit.swift; sourceTree = "<group>"; };
-		150FE544D132834031F689A9778BFD3E /* Pods-MuxLive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MuxLive-dummy.m"; sourceTree = "<group>"; };
 		15B3FD077436A85BB8B011CBF287E386 /* UIImage+Hue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Hue.swift"; path = "Source/iOS+tvOS/UIImage+Hue.swift"; sourceTree = "<group>"; };
 		16574898D73BEFD41A0E20AEE372C4BD /* VideoGravityUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoGravityUtil.swift; path = Sources/Util/VideoGravityUtil.swift; sourceTree = "<group>"; };
 		17BB31F2D57718A5D621773DF5CBDB6B /* FLVAudioCodec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FLVAudioCodec.swift; path = Sources/FLV/FLVAudioCodec.swift; sourceTree = "<group>"; };
@@ -200,6 +198,7 @@
 		182CFD90C2F953987CEBB93E09F46921 /* Logboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Logboard.modulemap; sourceTree = "<group>"; };
 		18944833CCDAD4CAEA1D7234CAB7625C /* AudioConverter.AudioBuffer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioConverter.AudioBuffer.swift; path = Sources/Codec/AudioConverter.AudioBuffer.swift; sourceTree = "<group>"; };
 		189A5C14F5C1C4A173F7A9719CEA0B9D /* CircularBuffer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularBuffer.swift; path = Sources/Util/CircularBuffer.swift; sourceTree = "<group>"; };
+		18AE56DC38385A51C8B985324A3637DC /* Pods-BuffsStream-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BuffsStream-acknowledgements.plist"; sourceTree = "<group>"; };
 		1A6BA6C85ECB4BD9C568A735617E7491 /* Loaf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Loaf.debug.xcconfig; sourceTree = "<group>"; };
 		1BBACD59E9C2A3D22D4D9E482696DD1C /* Loaf-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Loaf-Info.plist"; sourceTree = "<group>"; };
 		1DDE618B90629C9439820649EB443554 /* Hue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hue.debug.xcconfig; sourceTree = "<group>"; };
@@ -207,12 +206,13 @@
 		20C2C3B3222C90BB156FE0B12FBF6858 /* Atomic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Atomic.swift; path = Sources/Util/Atomic.swift; sourceTree = "<group>"; };
 		253752C0709B30E391FDE5ABE36E91F5 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Loaf/Extensions.swift; sourceTree = "<group>"; };
 		25BFFBE6D90519C6BE2EBFA4D388AED0 /* HaishinKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HaishinKit; path = HaishinKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		285BC3A3C7D856B0F95447E3B2207BD2 /* Pods-BuffsStream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuffsStream.release.xcconfig"; sourceTree = "<group>"; };
 		28A4184A0350227A3E32FB1E15E1E890 /* ByteArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ByteArray.swift; path = Sources/Util/ByteArray.swift; sourceTree = "<group>"; };
 		29B091D36770CEAB25D8707B37885D5A /* M3U.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M3U.swift; path = Sources/HTTP/M3U.swift; sourceTree = "<group>"; };
 		2B4179F5E4ABCC18D52CE73ADAADA8C2 /* MIME.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MIME.swift; path = Sources/Net/MIME.swift; sourceTree = "<group>"; };
 		2BAC047767DFF32570E2C4FD7FFCA336 /* Loaf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Loaf.swift; path = Sources/Loaf/Loaf.swift; sourceTree = "<group>"; };
-		2D11162180EEA7521F747A775B340E96 /* Pods-MuxLive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MuxLive-umbrella.h"; sourceTree = "<group>"; };
 		2F93A25C9F2EBA475C214C884DACB524 /* FLVAACPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FLVAACPacket.swift; path = Sources/FLV/FLVAACPacket.swift; sourceTree = "<group>"; };
+		30574B2390CF46D772633B52DC3ADF2B /* Pods-BuffsStream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BuffsStream-umbrella.h"; sourceTree = "<group>"; };
 		30C097A87AD86DC2E34EDDEF40904502 /* RTMPSharedObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPSharedObject.swift; path = Sources/RTMP/RTMPSharedObject.swift; sourceTree = "<group>"; };
 		318297C8078950067266D7A94310F2D8 /* ASClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASClass.swift; path = Sources/RTMP/ASClass.swift; sourceTree = "<group>"; };
 		31C3578BC85701EE1120FE98FB11C2E0 /* HaishinKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HaishinKit-Info.plist"; sourceTree = "<group>"; };
@@ -248,16 +248,16 @@
 		4E5DE6E6E8C63A32678087D47E434231 /* RTMPMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPMessage.swift; path = Sources/RTMP/RTMPMessage.swift; sourceTree = "<group>"; };
 		4F47FF09354BAB950175E14AE5EFA2D2 /* RTMPChunk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPChunk.swift; path = Sources/RTMP/RTMPChunk.swift; sourceTree = "<group>"; };
 		513C41C63219A0C3D4DE75CAED36CBFD /* Logboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Logboard-umbrella.h"; sourceTree = "<group>"; };
-		591BC10BED9F11C64D8322272056043A /* Pods-MuxLive-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MuxLive-Info.plist"; sourceTree = "<group>"; };
-		5B812D4C201A6A635F7046356D72CAA8 /* Pods-MuxLive-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MuxLive-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5C5F2CBC8AA8679F658E7A7B6429695F /* VTSessionPropertyKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VTSessionPropertyKey.swift; path = Sources/Codec/VTSessionPropertyKey.swift; sourceTree = "<group>"; };
 		5EB97A44172F0CB888879F463698B841 /* RTMPStreamInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPStreamInfo.swift; path = Sources/RTMP/RTMPStreamInfo.swift; sourceTree = "<group>"; };
 		5ECE2A74E6D92A26615E17B0A8B77895 /* FLVFrameType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FLVFrameType.swift; path = Sources/FLV/FLVFrameType.swift; sourceTree = "<group>"; };
+		5F714215BAFAA5FD048C7653E3D9CFE1 /* Pods-BuffsStream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuffsStream.debug.xcconfig"; sourceTree = "<group>"; };
 		61E9619C31496508AB5079E4E59AB590 /* UIColor+Hue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Hue.swift"; path = "Source/iOS+tvOS/UIColor+Hue.swift"; sourceTree = "<group>"; };
 		6318B0E39E3FB6BC3277D6FCB340C9C5 /* MTHKView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MTHKView.swift; path = Sources/Media/MTHKView.swift; sourceTree = "<group>"; };
 		64C51EF909EAB3A039607E58B64D8752 /* NetStreamRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetStreamRenderer.swift; path = Sources/Net/NetStreamRenderer.swift; sourceTree = "<group>"; };
 		64E2F3C15A4475CA84D7B986BE636223 /* AMF0Serializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMF0Serializer.swift; path = Sources/RTMP/AMF0Serializer.swift; sourceTree = "<group>"; };
 		68483E9565E9D14B82C1B195C7A453FF /* Logboard.Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logboard.Data.swift; path = Sources/Logboard/Logboard.Data.swift; sourceTree = "<group>"; };
+		68754E902EB1FED708E902217A910DAB /* Pods-BuffsStream-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BuffsStream-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6890D67F132659CD7A37C64D4EDD22CC /* VideoEffect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoEffect.swift; path = Sources/Media/VideoEffect.swift; sourceTree = "<group>"; };
 		6ADFF8B39C099FDF978E8E2E4A80286B /* ConsoleAppender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConsoleAppender.swift; path = Sources/Logboard/ConsoleAppender.swift; sourceTree = "<group>"; };
 		6C8490CC285DD9DBC47AC6EBF78FAAD0 /* HTTPService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPService.swift; path = Sources/HTTP/HTTPService.swift; sourceTree = "<group>"; };
@@ -266,7 +266,6 @@
 		70AA5574C839B3BF8CE7E35C86710139 /* TSWriter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TSWriter.swift; path = Sources/ISO/TSWriter.swift; sourceTree = "<group>"; };
 		7353CF85DDDD08E40BE89632811D5488 /* MP4Reader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MP4Reader.swift; path = Sources/ISO/MP4Reader.swift; sourceTree = "<group>"; };
 		7525023C8DE6BB977868FDA1ED1A0D22 /* AudioSpecificConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioSpecificConfig.swift; path = Sources/ISO/AudioSpecificConfig.swift; sourceTree = "<group>"; };
-		752AAD88D1B306D7553CDCB212BA5C12 /* Pods-MuxLive */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MuxLive"; path = Pods_MuxLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7645E44C2128226CAFB4FA3EC4053D68 /* HKPictureInPicureController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HKPictureInPicureController.swift; path = Sources/PiP/HKPictureInPicureController.swift; sourceTree = "<group>"; };
 		78896A39ED40CB4A16711EDD31C1380A /* Loaf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Loaf.release.xcconfig; sourceTree = "<group>"; };
 		78EBAC6C7E4824556FC902B426B4493F /* HaishinKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HaishinKit-dummy.m"; sourceTree = "<group>"; };
@@ -280,14 +279,16 @@
 		914BB29F032BDA33F75D46C2418CF464 /* LogboardAppender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogboardAppender.swift; path = Sources/Logboard/LogboardAppender.swift; sourceTree = "<group>"; };
 		94215D74BDFD606FA537392C0685C5B4 /* HaishinKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HaishinKit.release.xcconfig; sourceTree = "<group>"; };
 		94B3C774D54052B63CE8B1BD0F694CF6 /* NullAppender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NullAppender.swift; path = Sources/Logboard/NullAppender.swift; sourceTree = "<group>"; };
-		955E9416AE4192C6C29AEF51EB26C074 /* Pods-MuxLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MuxLive.debug.xcconfig"; sourceTree = "<group>"; };
 		97C66B8D3E9C457A14A9893B19B9F42C /* Logboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Logboard-prefix.pch"; sourceTree = "<group>"; };
 		9950ACB4FBFB5AB7E9742E61CD80681A /* AnyUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyUtil.swift; path = Sources/Util/AnyUtil.swift; sourceTree = "<group>"; };
 		99B934DCF5CCE1AC41660F50A08141F2 /* VTCompressionSession+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "VTCompressionSession+Extension.swift"; path = "Sources/Extension/VTCompressionSession+Extension.swift"; sourceTree = "<group>"; };
+		9C1C366DF8C49F6BAC47841C15A87295 /* Pods-BuffsStream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BuffsStream.modulemap"; sourceTree = "<group>"; };
 		9D83CA7490E2FB373C18686409C518D2 /* RTMPSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPSocket.swift; path = Sources/RTMP/RTMPSocket.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DC7C2DF012E3C3C2376B4769889FA9B /* FLVTagType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FLVTagType.swift; path = Sources/FLV/FLVTagType.swift; sourceTree = "<group>"; };
+		9F0351B5DA0C177C51BD004417DB3801 /* Pods-BuffsStream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BuffsStream-dummy.m"; sourceTree = "<group>"; };
 		A237C162E69B5CB1C7B74E5681C2509B /* Loaf-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Loaf-umbrella.h"; sourceTree = "<group>"; };
+		A383FBE8DD4177CF5CB0FD601794E823 /* Pods-BuffsStream-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BuffsStream-frameworks.sh"; sourceTree = "<group>"; };
 		A3B9017440BF6211054FE81F7F78BC76 /* Hue */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hue; path = Hue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D9CD53F01369B4E744BD3BAD5C3CC6 /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Sources/Util/MD5.swift; sourceTree = "<group>"; };
 		A47CECDF1ADBA8AA0BE7C3C06E8C56B9 /* CMSampleBuffer+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CMSampleBuffer+Extension.swift"; path = "Sources/Extension/CMSampleBuffer+Extension.swift"; sourceTree = "<group>"; };
@@ -303,6 +304,7 @@
 		B5769F41E7738510041ECED7FA7EFCFA /* Hue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hue-umbrella.h"; sourceTree = "<group>"; };
 		B653F924E94F240DACC24BFC243D55A7 /* Logboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Logboard.release.xcconfig; sourceTree = "<group>"; };
 		B81576BA1EA3A1AC1EFCF6944880513B /* H264Encoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = H264Encoder.swift; path = Sources/Codec/H264Encoder.swift; sourceTree = "<group>"; };
+		B985A0009B67D3D4A6291DC7D07E09F7 /* Pods-BuffsStream */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BuffsStream"; path = Pods_BuffsStream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9E9735F29B2671D9154E7F71575E39A /* H264+AVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "H264+AVC.swift"; path = "Sources/ISO/H264+AVC.swift"; sourceTree = "<group>"; };
 		BB77A4C69336A72195DE2F004E0954EB /* RTMPNWSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPNWSocket.swift; path = Sources/RTMP/RTMPNWSocket.swift; sourceTree = "<group>"; };
 		BBF3C907BB548DD1552305E79C7836C3 /* Logboard */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Logboard; path = Logboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -314,6 +316,7 @@
 		C228C01B6F4A19924809D2388BE3F0A0 /* HaishinKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HaishinKit-prefix.pch"; sourceTree = "<group>"; };
 		C43D27A6CC73543E8DC76981A83A7636 /* HaishinKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HaishinKit-umbrella.h"; sourceTree = "<group>"; };
 		C7A7F2D9C235123999B174C260744200 /* HaishinKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HaishinKit.h; path = Platforms/iOS/HaishinKit.h; sourceTree = "<group>"; };
+		C97986E7D4D92856E4F658F6B9197411 /* Pods-BuffsStream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BuffsStream-Info.plist"; sourceTree = "<group>"; };
 		CB952369C2C3D144A79BC746F1E70E33 /* VideoIOComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoIOComponent.swift; path = Sources/Media/VideoIOComponent.swift; sourceTree = "<group>"; };
 		CD365F5DA2907EACDE59B3DC1CAAC8FE /* MP4Sampler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MP4Sampler.swift; path = Sources/ISO/MP4Sampler.swift; sourceTree = "<group>"; };
 		CD5625CCD9D557DBF5598345C0D2693B /* TimerDriver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimerDriver.swift; path = Sources/Util/TimerDriver.swift; sourceTree = "<group>"; };
@@ -327,12 +330,10 @@
 		D7C79220C7B0B89B5EB35D79D886042B /* RTMPTSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPTSocket.swift; path = Sources/RTMP/RTMPTSocket.swift; sourceTree = "<group>"; };
 		D9ED9CCD8B5F71CBB7521329615F6703 /* Logboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Logboard.debug.xcconfig; sourceTree = "<group>"; };
 		DC00C546B76D5DF6723F08F2F35BE7F7 /* RTMPStream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPStream.swift; path = Sources/RTMP/RTMPStream.swift; sourceTree = "<group>"; };
-		DEA9DB59842633F5C1B62CD5E3E50974 /* Pods-MuxLive-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MuxLive-acknowledgements.plist"; sourceTree = "<group>"; };
 		DEF810569F92D5F74CC7AF9D71F40C51 /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = Sources/Loaf/Presenter/Animator.swift; sourceTree = "<group>"; };
 		DF897EDA1B8AE3EED077F93AB74B1C38 /* HKPictureInPicureControllerImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HKPictureInPicureControllerImpl.swift; path = Sources/PiP/HKPictureInPicureControllerImpl.swift; sourceTree = "<group>"; };
 		E202F00A17C5807AA8777D83D10C5623 /* AudioStreamBasicDescription+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AudioStreamBasicDescription+Extension.swift"; path = "Sources/Extension/AudioStreamBasicDescription+Extension.swift"; sourceTree = "<group>"; };
 		E4938E84DF8182A7D2B926B2B63270DC /* FLVSoundType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FLVSoundType.swift; path = Sources/FLV/FLVSoundType.swift; sourceTree = "<group>"; };
-		E7C6AAB5DDDD1A2DE3650D5AFE9AFD13 /* Pods-MuxLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MuxLive.release.xcconfig"; sourceTree = "<group>"; };
 		E8385A61ADAD5CE45E0375393B9A1C84 /* Icons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Icons.swift; path = Sources/Loaf/Icons.swift; sourceTree = "<group>"; };
 		E84E3116A459B8EEAE508E9C18B4E334 /* HKPictureInPicureController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HKPictureInPicureController+Extension.swift"; path = "Sources/PiP/HKPictureInPicureController+Extension.swift"; sourceTree = "<group>"; };
 		E884F93D3985CD29554D8E05CE4D2FB1 /* FLVReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FLVReader.swift; path = Sources/FLV/FLVReader.swift; sourceTree = "<group>"; };
@@ -342,7 +343,6 @@
 		ED237D267D8A196C0A8B99EA4C7AAA1A /* HaishinKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HaishinKit.debug.xcconfig; sourceTree = "<group>"; };
 		EDCA1E146BD512948037A9CA61759495 /* Data+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extension.swift"; path = "Sources/Extension/Data+Extension.swift"; sourceTree = "<group>"; };
 		EDFA9673C749F93FDFC9647E4B4842FE /* RTMPObjectEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPObjectEncoding.swift; path = Sources/RTMP/RTMPObjectEncoding.swift; sourceTree = "<group>"; };
-		EF977EE057ADB05BC0D7FF164D17E10D /* Pods-MuxLive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MuxLive.modulemap"; sourceTree = "<group>"; };
 		F75742DBFD365A452BFEACB7C8A078F9 /* NetSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetSocket.swift; path = Sources/Net/NetSocket.swift; sourceTree = "<group>"; };
 		F7D0DD82216925BE6FC4105348FA4475 /* CMAudioFormatDescription+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CMAudioFormatDescription+Extension.swift"; path = "Sources/Extension/CMAudioFormatDescription+Extension.swift"; sourceTree = "<group>"; };
 		F7D31A9378093E057D3CD38D5285E9D2 /* AMF3Serializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMF3Serializer.swift; path = Sources/RTMP/AMF3Serializer.swift; sourceTree = "<group>"; };
@@ -354,14 +354,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		220B8AC744C2988FB5AB0424509D0689 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0EC221732D44C7F2E75AE47EBCB986C8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2858D27D0F5DAFFE7824F850D4180C5F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -387,6 +379,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		95FF926B5D70108E4A81EB5FD19155FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93F810BE2CEE6FFA858E3B3D9BD753F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BE70E07B56C110EA0161F9713B68C2D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -398,49 +398,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1DEA40078BB2E2A3D9630CD42CCF3C80 /* Pods-MuxLive */ = {
-			isa = PBXGroup;
-			children = (
-				EF977EE057ADB05BC0D7FF164D17E10D /* Pods-MuxLive.modulemap */,
-				5B812D4C201A6A635F7046356D72CAA8 /* Pods-MuxLive-acknowledgements.markdown */,
-				DEA9DB59842633F5C1B62CD5E3E50974 /* Pods-MuxLive-acknowledgements.plist */,
-				150FE544D132834031F689A9778BFD3E /* Pods-MuxLive-dummy.m */,
-				0EFDBC7D64A0684D766BC7CB58C665CD /* Pods-MuxLive-frameworks.sh */,
-				591BC10BED9F11C64D8322272056043A /* Pods-MuxLive-Info.plist */,
-				2D11162180EEA7521F747A775B340E96 /* Pods-MuxLive-umbrella.h */,
-				955E9416AE4192C6C29AEF51EB26C074 /* Pods-MuxLive.debug.xcconfig */,
-				E7C6AAB5DDDD1A2DE3650D5AFE9AFD13 /* Pods-MuxLive.release.xcconfig */,
-			);
-			name = "Pods-MuxLive";
-			path = "Target Support Files/Pods-MuxLive";
-			sourceTree = "<group>";
-		};
-		1F5982DAD15087F181D1707A479CB18C /* Products */ = {
+		0DD6FF11F46A5BC8884CB4C940CD4C23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				25BFFBE6D90519C6BE2EBFA4D388AED0 /* HaishinKit */,
 				A3B9017440BF6211054FE81F7F78BC76 /* Hue */,
 				4BE730510F6EBDAEF7EF02CB99F4B209 /* Loaf */,
 				BBF3C907BB548DD1552305E79C7836C3 /* Logboard */,
-				752AAD88D1B306D7553CDCB212BA5C12 /* Pods-MuxLive */,
+				B985A0009B67D3D4A6291DC7D07E09F7 /* Pods-BuffsStream */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		25FC14B0CE6F4647BA9071323CF8A25C /* Targets Support Files */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1DEA40078BB2E2A3D9630CD42CCF3C80 /* Pods-MuxLive */,
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
-			name = "Targets Support Files";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		39B4F22F467EC635A236C00A890CE9B2 /* Support Files */ = {
@@ -497,6 +472,14 @@
 			path = "../Target Support Files/HaishinKit";
 			sourceTree = "<group>";
 		};
+		8116BC07FF2A0E35B76BA7A239B6A76D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4A065A962B1D6FFF6876B9DA116473C /* Pods-BuffsStream */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		94D6C1639FA62393A6B6CF1477F0C6D5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -521,8 +504,24 @@
 				4E1E2BB407E46D6B958A36AE5F057DCB /* SocketAppender.swift */,
 				39B4F22F467EC635A236C00A890CE9B2 /* Support Files */,
 			);
-			name = Logboard;
 			path = Logboard;
+			sourceTree = "<group>";
+		};
+		A4A065A962B1D6FFF6876B9DA116473C /* Pods-BuffsStream */ = {
+			isa = PBXGroup;
+			children = (
+				9C1C366DF8C49F6BAC47841C15A87295 /* Pods-BuffsStream.modulemap */,
+				68754E902EB1FED708E902217A910DAB /* Pods-BuffsStream-acknowledgements.markdown */,
+				18AE56DC38385A51C8B985324A3637DC /* Pods-BuffsStream-acknowledgements.plist */,
+				9F0351B5DA0C177C51BD004417DB3801 /* Pods-BuffsStream-dummy.m */,
+				A383FBE8DD4177CF5CB0FD601794E823 /* Pods-BuffsStream-frameworks.sh */,
+				C97986E7D4D92856E4F658F6B9197411 /* Pods-BuffsStream-Info.plist */,
+				30574B2390CF46D772633B52DC3ADF2B /* Pods-BuffsStream-umbrella.h */,
+				5F714215BAFAA5FD048C7653E3D9CFE1 /* Pods-BuffsStream.debug.xcconfig */,
+				285BC3A3C7D856B0F95447E3B2207BD2 /* Pods-BuffsStream.release.xcconfig */,
+			);
+			name = "Pods-BuffsStream";
+			path = "Target Support Files/Pods-BuffsStream";
 			sourceTree = "<group>";
 		};
 		ACB78878167C82CC763EA24C7C2C6F7C /* HaishinKit */ = {
@@ -635,7 +634,6 @@
 				5C5F2CBC8AA8679F658E7A7B6429695F /* VTSessionPropertyKey.swift */,
 				7CFF33EF2A2C93F68F7AEE0FC0512CBD /* Support Files */,
 			);
-			name = HaishinKit;
 			path = HaishinKit;
 			sourceTree = "<group>";
 		};
@@ -646,7 +644,6 @@
 				15B3FD077436A85BB8B011CBF287E386 /* UIImage+Hue.swift */,
 				FD20633A0ADB8D658DBEBCF11BA6F93F /* Support Files */,
 			);
-			name = Hue;
 			path = Hue;
 			sourceTree = "<group>";
 		};
@@ -661,7 +658,6 @@
 				00230AB5ABA132B33B5DB4B36E4E4F43 /* Manager.swift */,
 				5994FF2196B5CCAC92AD277FB065675A /* Support Files */,
 			);
-			name = Loaf;
 			path = Loaf;
 			sourceTree = "<group>";
 		};
@@ -671,8 +667,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				94D6C1639FA62393A6B6CF1477F0C6D5 /* Pods */,
-				1F5982DAD15087F181D1707A479CB18C /* Products */,
-				25FC14B0CE6F4647BA9071323CF8A25C /* Targets Support Files */,
+				0DD6FF11F46A5BC8884CB4C940CD4C23 /* Products */,
+				8116BC07FF2A0E35B76BA7A239B6A76D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -702,20 +698,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		349628D5AA3C295E5F72E16F5162DD0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E4D0EE1644C35304BB85477F8BE7D6C /* Pods-BuffsStream-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DBE7C1164D1A806B6A80115DC127E1C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AA780492BD462204AD78023A79EFA70D /* HaishinKit.h in Headers */,
 				1C6DC6BC8500063E098D0006872400D7 /* HaishinKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94C288F7FE8D642927C1A6643148EC62 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ACDB34DB0BAC516DECDA669C98A894DA /* Pods-MuxLive-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -755,6 +751,28 @@
 			name = Hue;
 			productName = Hue;
 			productReference = A3B9017440BF6211054FE81F7F78BC76 /* Hue */;
+			productType = "com.apple.product-type.framework";
+		};
+		0DB633099C546AA1470E8CBA4BF8EECC /* Pods-BuffsStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53B6CAF25B78991658D42C601617BC3 /* Build configuration list for PBXNativeTarget "Pods-BuffsStream" */;
+			buildPhases = (
+				349628D5AA3C295E5F72E16F5162DD0D /* Headers */,
+				36D4A9B01A889C94E3B395082969BB25 /* Sources */,
+				95FF926B5D70108E4A81EB5FD19155FD /* Frameworks */,
+				CFA01ABDD57C4F2A0709929786D81921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B93524932166018026D6C55D7D1DCA0 /* PBXTargetDependency */,
+				BD3C483DDEDA6136DF9CF0C77217B936 /* PBXTargetDependency */,
+				717168F784C602390E19E982FB4361F6 /* PBXTargetDependency */,
+				081995B1C177A375FBCB5221A3A30DD1 /* PBXTargetDependency */,
+			);
+			name = "Pods-BuffsStream";
+			productName = Pods_BuffsStream;
+			productReference = B985A0009B67D3D4A6291DC7D07E09F7 /* Pods-BuffsStream */;
 			productType = "com.apple.product-type.framework";
 		};
 		3D19B054558188CDA7BA163F3BEBCE91 /* HaishinKit */ = {
@@ -812,28 +830,6 @@
 			productReference = BBF3C907BB548DD1552305E79C7836C3 /* Logboard */;
 			productType = "com.apple.product-type.framework";
 		};
-		DCBEF63DCEA1418816D8E3AB3D896ACB /* Pods-MuxLive */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F55D8785D1C3A808129EC613A7397E78 /* Build configuration list for PBXNativeTarget "Pods-MuxLive" */;
-			buildPhases = (
-				94C288F7FE8D642927C1A6643148EC62 /* Headers */,
-				714FEEF3F9F568664AEFF33E9BF2002E /* Sources */,
-				220B8AC744C2988FB5AB0424509D0689 /* Frameworks */,
-				5FEB5D06A558E4FF85FE10F869F16B4B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CC117C449B070878E3F7733762B7CE24 /* PBXTargetDependency */,
-				864B066B6CD08A6192C22E003412C720 /* PBXTargetDependency */,
-				308FE51439C35ACB7157C98E584A5F4C /* PBXTargetDependency */,
-				78C3E3540CFAEFEFF042164F5D6E6AED /* PBXTargetDependency */,
-			);
-			name = "Pods-MuxLive";
-			productName = Pods_MuxLive;
-			productReference = 752AAD88D1B306D7553CDCB212BA5C12 /* Pods-MuxLive */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -842,6 +838,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3E12D5ED3565D8FCC3DD9B9DD89246A9 = {
+						LastSwiftMigration = "";
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -852,7 +853,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1F5982DAD15087F181D1707A479CB18C /* Products */;
+			productRefGroup = 0DD6FF11F46A5BC8884CB4C940CD4C23 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -860,20 +861,13 @@
 				00D9B51B84230E50370AC70ADCF7F8AA /* Hue */,
 				3E12D5ED3565D8FCC3DD9B9DD89246A9 /* Loaf */,
 				B741752CADA2D523808EEA4844EE6697 /* Logboard */,
-				DCBEF63DCEA1418816D8E3AB3D896ACB /* Pods-MuxLive */,
+				0DB633099C546AA1470E8CBA4BF8EECC /* Pods-BuffsStream */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		132EA1829385C7B07F1A2E99870750DB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5FEB5D06A558E4FF85FE10F869F16B4B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -888,6 +882,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C2059B99D6CC805E8ABC8A8FCC7155A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA01ABDD57C4F2A0709929786D81921 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -928,11 +929,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		714FEEF3F9F568664AEFF33E9BF2002E /* Sources */ = {
+		36D4A9B01A889C94E3B395082969BB25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3149B1D32943E1A2184DB14307340B6F /* Pods-MuxLive-dummy.m in Sources */,
+				BCBE89EF5257EAA66436D3C0660672C4 /* Pods-BuffsStream-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1066,23 +1067,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		308FE51439C35ACB7157C98E584A5F4C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Loaf;
-			target = 3E12D5ED3565D8FCC3DD9B9DD89246A9 /* Loaf */;
-			targetProxy = F26A43040BA5BA46E688228E2FA565CA /* PBXContainerItemProxy */;
-		};
-		78C3E3540CFAEFEFF042164F5D6E6AED /* PBXTargetDependency */ = {
+		081995B1C177A375FBCB5221A3A30DD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Logboard;
 			target = B741752CADA2D523808EEA4844EE6697 /* Logboard */;
-			targetProxy = 7E0DEA81AC0A53F0D95413171DE2869E /* PBXContainerItemProxy */;
+			targetProxy = F52120FD342D6C218F664FFC8241A584 /* PBXContainerItemProxy */;
 		};
-		864B066B6CD08A6192C22E003412C720 /* PBXTargetDependency */ = {
+		6B93524932166018026D6C55D7D1DCA0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Hue;
-			target = 00D9B51B84230E50370AC70ADCF7F8AA /* Hue */;
-			targetProxy = 03C92BF476538438D434C911F8967E9D /* PBXContainerItemProxy */;
+			name = HaishinKit;
+			target = 3D19B054558188CDA7BA163F3BEBCE91 /* HaishinKit */;
+			targetProxy = 5B68510FDE711DC72A94283E6F71D4E1 /* PBXContainerItemProxy */;
+		};
+		717168F784C602390E19E982FB4361F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Loaf;
+			target = 3E12D5ED3565D8FCC3DD9B9DD89246A9 /* Loaf */;
+			targetProxy = 09ECE8E0A719F1296D088C90022B3B64 /* PBXContainerItemProxy */;
 		};
 		BD16E96B2E27FD2B90494521F7B912F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1090,11 +1091,11 @@
 			target = B741752CADA2D523808EEA4844EE6697 /* Logboard */;
 			targetProxy = E5D330FCAEA565FFB90C4186FE53286C /* PBXContainerItemProxy */;
 		};
-		CC117C449B070878E3F7733762B7CE24 /* PBXTargetDependency */ = {
+		BD3C483DDEDA6136DF9CF0C77217B936 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = HaishinKit;
-			target = 3D19B054558188CDA7BA163F3BEBCE91 /* HaishinKit */;
-			targetProxy = 2FB305CCEC9C7152EA68333492FE53C8 /* PBXContainerItemProxy */;
+			name = Hue;
+			target = 00D9B51B84230E50370AC70ADCF7F8AA /* Hue */;
+			targetProxy = 0885B2440CA94FBCBC6E8AC1DEF3E8DD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1126,43 +1127,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1305606BBA40FF5AF589A934744A5D16 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 955E9416AE4192C6C29AEF51EB26C074 /* Pods-MuxLive.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MuxLive/Pods-MuxLive-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MuxLive/Pods-MuxLive.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1231,6 +1195,43 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		52ED68F760E632A51F5E26A1B65FDD8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F714215BAFAA5FD048C7653E3D9CFE1 /* Pods-BuffsStream.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BuffsStream/Pods-BuffsStream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BuffsStream/Pods-BuffsStream.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1433,6 +1434,44 @@
 			};
 			name = Release;
 		};
+		E0CC7E902CE2767229E8B24428F5CDDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 285BC3A3C7D856B0F95447E3B2207BD2 /* Pods-BuffsStream.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BuffsStream/Pods-BuffsStream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BuffsStream/Pods-BuffsStream.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E92B1FCED6C14BC231C055B419AA3B65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D9ED9CCD8B5F71CBB7521329615F6703 /* Logboard.debug.xcconfig */;
@@ -1536,44 +1575,6 @@
 			};
 			name = Release;
 		};
-		FE56C6C1709509FA28FE82A1DC21E986 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7C6AAB5DDDD1A2DE3650D5AFE9AFD13 /* Pods-MuxLive.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MuxLive/Pods-MuxLive-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MuxLive/Pods-MuxLive.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1622,11 +1623,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F55D8785D1C3A808129EC613A7397E78 /* Build configuration list for PBXNativeTarget "Pods-MuxLive" */ = {
+		B53B6CAF25B78991658D42C601617BC3 /* Build configuration list for PBXNativeTarget "Pods-BuffsStream" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1305606BBA40FF5AF589A934744A5D16 /* Debug */,
-				FE56C6C1709509FA28FE82A1DC21E986 /* Release */,
+				52ED68F760E632A51F5E26A1B65FDD8C /* Debug */,
+				E0CC7E902CE2767229E8B24428F5CDDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

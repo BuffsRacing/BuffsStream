@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_MuxLiveVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_MuxLiveVersionString[];
+FOUNDATION_EXPORT double Pods_BuffsStreamVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_BuffsStreamVersionString[];
 

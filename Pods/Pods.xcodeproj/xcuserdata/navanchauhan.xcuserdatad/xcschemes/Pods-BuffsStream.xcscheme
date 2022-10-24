@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DCBEF63DCEA1418816D8E3AB3D896ACB"
-               BuildableName = "Pods_MuxLive.framework"
-               BlueprintName = "Pods-MuxLive"
+               BlueprintIdentifier = "0DB633099C546AA1470E8CBA4BF8EECC"
+               BuildableName = "Pods_BuffsStream.framework"
+               BlueprintName = "Pods-BuffsStream"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

@@ -2,10 +2,10 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '13.0'
 
-target 'MuxLive' do
+target 'BuffsStream' do
   use_frameworks!
 
-  # Pods for MuxLive
+  # Pods for BuffsStream
   pod 'HaishinKit', '~> 1.1.0'
   pod 'Hue', '~> 5.0.0'
   pod 'Loaf'

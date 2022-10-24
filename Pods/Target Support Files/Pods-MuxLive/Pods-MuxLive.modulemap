@@ -1,6 +1,0 @@
-framework module Pods_MuxLive {
-  umbrella header "Pods-MuxLive-umbrella.h"
-
-  export *
-  module * { export * }
-}

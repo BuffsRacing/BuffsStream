@@ -44,7 +44,7 @@ class BroadcastViewController: UIViewController, RTMPStreamDelegate {
     private var lastBwChange = 0
     
     // The RTMP endpoint
-    let rtmpEndpoint = "rtmp://den52.contribute.live-video.net/app/"
+    let rtmpEndpoint = "rtmp://" // OLD: rtmp://den52.contribute.live-video.net/app/
 
     // Some basic presets for live streaming
     enum Preset {
